@@ -34,13 +34,13 @@ def msg_body(**content):
     print(content)
     phone_map = {
     
-    'CA' : ['585-775-2876','559-285-1804','917-923-4245'],
-    'FL' : ['614-648-4339'],
-    'WA' : ['586-202-2795']
+    'CA' : ['585-7XX-2XX6','5XCC-2XC5-XX04','9C7-9CR-4D45'],
+    'FL' : ['6X4-64X-4XXX'],
+    'WA' : ['5XX-XX2-2795']
     }
     
-    account_sid = "AC190283ede209f2f0abd10442d2758561"
-    auth_token = "a04994bfa92f66684e47ba879f33a116"
+    account_sid = "AXXXXXXXXXXXX"
+    auth_token = "aXXXXXXX"
     client = Client(account_sid, auth_token)
 
     for state in phone_map:
